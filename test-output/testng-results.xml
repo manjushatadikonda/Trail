@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-26T00:41:14 CST" name="Default suite" finished-at="2022-02-26T00:41:14 CST" duration-ms="46">
+    <groups>
+    </groups>
+    <test started-at="2022-02-26T00:41:14 CST" name="Default test" finished-at="2022-02-26T00:41:14 CST" duration-ms="46">
+      <class name="Fizzbuzz">
+        <test-method signature="test1()[pri:0, instance:Fizzbuzz@581ac8a8]" started-at="2022-02-26T00:41:14 CST" name="test1" finished-at="2022-02-26T00:41:14 CST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Fizzbuzz@581ac8a8]" started-at="2022-02-26T00:41:14 CST" name="test2" finished-at="2022-02-26T00:41:14 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:Fizzbuzz@581ac8a8]" started-at="2022-02-26T00:41:14 CST" name="test3" finished-at="2022-02-26T00:41:14 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:Fizzbuzz@581ac8a8]" started-at="2022-02-26T00:41:14 CST" name="test4" finished-at="2022-02-26T00:41:14 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:Fizzbuzz@581ac8a8]" started-at="2022-02-26T00:41:14 CST" name="test5" finished-at="2022-02-26T00:41:14 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- Fizzbuzz -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
