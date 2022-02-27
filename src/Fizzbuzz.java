@@ -3,7 +3,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
 public class Fizzbuzz 
 {
@@ -39,10 +38,7 @@ public HashMap<Object,String> checkapp(Object[] arr)
 			}
 	
 	}
-	for(Map.Entry<Object, String> check:hMap.entrySet())
-	{
-		System.out.println(check.getKey()+"\t"+check.getValue()+"\n");
-	}
+
 	return hMap;
 }
 
