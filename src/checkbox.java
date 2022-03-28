@@ -16,8 +16,9 @@ public class checkbox {
 	driver.navigate().to("https://the-internet.herokuapp.com/dynamic_controls");
 	
 	// checkbox selection
-	driver.findElement(By.xpath("//input[@label='blah']")).click();
-	
+	//driver.findElement(By.xpath("//input[@label='blah']")).click();
+	WebElement hi=driver.findElement(By.xpath("//input[@label='blah']"));
+	hi.findElement(By.xpath(null))
 	//ckick on remove button if checkbox is selected
 	if(driver.findElement(By.xpath("//input[@label='blah']")).isSelected())
 	{
