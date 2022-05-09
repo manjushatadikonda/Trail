@@ -66,4 +66,11 @@ public void test1()
 	Integer[] b= {2,2,3,3,4};
 	Assert.assertEquals(check(a,b).size(),5);
 }
+@Test
+public void test2()
+{
+	Integer[] a= {1,2,2,3,3,4};
+	Integer[] b= {5,6,7,8};
+	Assert.assertTrue(check(a,b).isEmpty());
+}
 }
